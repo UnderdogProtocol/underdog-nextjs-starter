@@ -10,12 +10,14 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "@types/node": "18.16.3",
-    "@types/react": "18.2.0",
-    "@types/react-dom": "18.2.1",
+    "@solana/wallet-adapter-base": "^0.9.22",
+    "@solana/wallet-adapter-react": "^0.15.32",
+    "@solana/wallet-adapter-react-ui": "^0.9.31",
+    "@solana/wallet-adapter-wallets": "^0.19.16",
+    "@solana/web3.js": "^1.75.0",
+    "@typescript-eslint/parser": "^5.59.2",
+    "@underdog-protocol/js": "^0.2.3",
     "autoprefixer": "10.4.14",
-    "eslint": "8.39.0",
-    "eslint-config-next": "13.3.4",
     "next": "13.3.4",
     "postcss": "8.4.23",
     "react": "18.2.0",
@@ -24,6 +26,9 @@
     "typescript": "5.0.4"
   },
   "devDependencies": {
-    "husky": "^7.0.0"
+    "@trivago/prettier-plugin-sort-imports": "^4.1.1",
+    "@types/node": "18.16.3",
+    "@types/react": "18.2.0",
+    "@types/react-dom": "18.2.1"
   }
 }
