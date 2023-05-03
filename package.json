@@ -5,9 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "prepare": "husky install"
+    "start": "next start"
   },
   "dependencies": {
     "@solana/wallet-adapter-base": "^0.9.22",
