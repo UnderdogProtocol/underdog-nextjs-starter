@@ -96,7 +96,7 @@ export function IndexView() {
         )}
 
         <div className="space-y-2 flex-col flex items-center">
-          <WalletMultiButton />
+          <WalletMultiButton className="bg-purple-900" />
 
           <div className="text-sm text-orange-400">
             {nft ? (
