@@ -62,7 +62,7 @@ export function IndexView() {
             })
           }
         }).then((data) => {
-          if ((data as Nft)?.mintAddress) {
+          if ((data as Nft)?.attributes) {
             setNft(data as Nft);
           }
         });
