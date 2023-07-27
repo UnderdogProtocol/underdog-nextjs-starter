@@ -13,7 +13,7 @@
     "@solana/wallet-adapter-react-ui": "^0.9.31",
     "@solana/wallet-adapter-wallets": "^0.19.16",
     "@solana/web3.js": "^1.75.0",
-    "@underdog-protocol/js": "^0.2.3",
+    "@underdog-protocol/js": "0.6.3",
     "autoprefixer": "10.4.14",
     "next": "13.3.4",
     "postcss": "8.4.23",
